@@ -50,3 +50,9 @@ function App() {
 }
 
 export default App;
+
+// Adicione esta linha no topo do arquivo, junto com outros imports:
+// import { TeleatendimentoPage } from './pages/TeleatendimentoPage';
+
+// E adicione esta rota dentro do <Routes>:
+// <Route path="/teleatendimento/:appointmentId" element={<TeleatendimentoPage />} />

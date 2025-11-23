@@ -27,7 +27,7 @@ function RegisterPage() {
       });
 
       setSuccess('✅ Cadastro realizado com sucesso! Redirecionando...');
-      
+
       setTimeout(() => {
         navigate('/login');
       }, 2000);
@@ -107,6 +107,7 @@ function RegisterPage() {
             >
               <option value="patient">👤 Paciente</option>
               <option value="therapist">👨‍⚕️ Terapeuta</option>
+              <option value="admin">🔐 Administrador</option>
             </select>
           </div>
 
